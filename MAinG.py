@@ -490,7 +490,7 @@ while run:
 				moving_right = True
 			if event.key == pygame.K_SPACE:# ấn phím cách để bắn
 				shoot = True
-			if event.key == pygame.K_q:# ấn phím q để ném lựu đạn
+			if event.key == pygame.K_q:# ấn phím q để ném lựu đạn 
 				grenade = True
 			if event.key == pygame.K_w and player.alive:
 				player.jump = True
